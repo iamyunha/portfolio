@@ -13,7 +13,7 @@
 }
 
 *, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
-body, html { font-size: 100%; padding: 0; margin: 0;}
+body, html { font-size: 100%; padding: 0; margin: 0; height: 100%}
 
 /* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
 .clearfix:before, .clearfix:after { content: " "; display: table; }
@@ -22,11 +22,27 @@ body, html { font-size: 100%; padding: 0; margin: 0;}
 body {
 	font-family: 'Lato', Calibri, Arial, sans-serif;
 	color: #526469;
-	background: white;
 	text-align: center;
 
 
 
+}
+.bg {
+    /* The image used */
+    background-image: url("../image/tokyo.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+p{
+	color: white;
 }
 
 a {
